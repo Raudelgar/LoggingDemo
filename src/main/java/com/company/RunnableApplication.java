@@ -13,6 +13,7 @@ public class RunnableApplication {
          * By default Logger is set at Level 2.
          * To changed the level, got to resource directory, opened logback.xml file
          * under configuration/root --> place the desire level.
+         * Reference: https://logback.qos.ch/manual/configuration.html
          */
 
         log.trace("This is a trace logger");  //Level 1 (least important)
