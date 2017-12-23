@@ -1,0 +1,66 @@
+>2017-12-22 22:53:36,173 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:19] This is a trace logger
+>2017-12-22 22:53:36,200 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:20] This is a debug logger
+>2017-12-22 22:53:36,201 INFO [main] com.company.RunnableApplication [RunnableApplication.java:21] This is a info logger
+>2017-12-22 22:53:36,204 WARN [main] com.company.RunnableApplication [RunnableApplication.java:22] This is a warn logger
+>2017-12-22 22:53:36,205 ERROR [main] com.company.RunnableApplication [RunnableApplication.java:23] This is a error logger
+>2017-12-22 22:53:36,205 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:25] Initializing app
+>2017-12-22 22:53:36,209 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:27] x has been initialized
+>2017-12-22 22:53:36,211 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:28] x = 1
+>2017-12-22 22:53:36,212 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:32] i = 0
+>2017-12-22 22:53:36,212 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:33] x = 2
+>2017-12-22 22:53:36,213 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:32] i = 1
+>2017-12-22 22:53:36,214 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:33] x = 4
+>2017-12-22 22:53:36,216 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:32] i = 2
+>2017-12-22 22:53:36,217 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:33] x = 8
+>2017-12-22 22:53:36,218 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:32] i = 3
+>2017-12-22 22:53:36,219 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:33] x = 16
+>2017-12-22 22:53:36,219 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:32] i = 4
+>2017-12-22 22:53:36,220 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:33] x = 32
+>2017-12-22 22:53:36,220 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:32] i = 5
+>2017-12-22 22:53:36,221 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:33] x = 64
+>2017-12-22 22:53:36,222 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:32] i = 6
+>2017-12-22 22:53:36,223 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:33] x = 128
+>2017-12-22 22:53:36,223 WARN [main] com.company.RunnableApplication [RunnableApplication.java:35] x is getting too big
+>2017-12-22 22:53:36,224 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:32] i = 7
+>2017-12-22 22:53:36,225 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:33] x = 256
+>2017-12-22 22:53:36,226 WARN [main] com.company.RunnableApplication [RunnableApplication.java:35] x is getting too big
+>2017-12-22 22:53:36,227 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:32] i = 8
+>2017-12-22 22:53:36,227 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:33] x = 512
+>2017-12-22 22:53:36,228 WARN [main] com.company.RunnableApplication [RunnableApplication.java:35] x is getting too big
+>2017-12-22 22:53:36,230 TRACE [main] com.company.RunnableApplication [RunnableApplication.java:32] i = 9
+>2017-12-22 22:53:36,232 DEBUG [main] com.company.RunnableApplication [RunnableApplication.java:33] x = 1024
+>2017-12-22 22:53:36,233 ERROR [main] com.company.RunnableApplication [RunnableApplication.java:37] x is too big
+>2017-12-22 22:53:36,234 INFO [main] com.company.RunnableApplication [RunnableApplication.java:40] Final value x is: 1024
+>2017-12-22 22:55:21,030 TRACE [RunnableApplication.java:19] This is a trace logger
+>2017-12-22 22:55:21,043 DEBUG [RunnableApplication.java:20] This is a debug logger
+>2017-12-22 22:55:21,044 INFO [RunnableApplication.java:21] This is a info logger
+>2017-12-22 22:55:21,047 WARN [RunnableApplication.java:22] This is a warn logger
+>2017-12-22 22:55:21,047 ERROR [RunnableApplication.java:23] This is a error logger
+>2017-12-22 22:55:21,048 TRACE [RunnableApplication.java:25] Initializing app
+>2017-12-22 22:55:21,049 TRACE [RunnableApplication.java:27] x has been initialized
+>2017-12-22 22:55:21,050 DEBUG [RunnableApplication.java:28] x = 1
+>2017-12-22 22:55:21,051 TRACE [RunnableApplication.java:32] i = 0
+>2017-12-22 22:55:21,052 DEBUG [RunnableApplication.java:33] x = 2
+>2017-12-22 22:55:21,053 TRACE [RunnableApplication.java:32] i = 1
+>2017-12-22 22:55:21,054 DEBUG [RunnableApplication.java:33] x = 4
+>2017-12-22 22:55:21,054 TRACE [RunnableApplication.java:32] i = 2
+>2017-12-22 22:55:21,055 DEBUG [RunnableApplication.java:33] x = 8
+>2017-12-22 22:55:21,056 TRACE [RunnableApplication.java:32] i = 3
+>2017-12-22 22:55:21,057 DEBUG [RunnableApplication.java:33] x = 16
+>2017-12-22 22:55:21,058 TRACE [RunnableApplication.java:32] i = 4
+>2017-12-22 22:55:21,062 DEBUG [RunnableApplication.java:33] x = 32
+>2017-12-22 22:55:21,063 TRACE [RunnableApplication.java:32] i = 5
+>2017-12-22 22:55:21,071 DEBUG [RunnableApplication.java:33] x = 64
+>2017-12-22 22:55:21,072 TRACE [RunnableApplication.java:32] i = 6
+>2017-12-22 22:55:21,074 DEBUG [RunnableApplication.java:33] x = 128
+>2017-12-22 22:55:21,075 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-22 22:55:21,076 TRACE [RunnableApplication.java:32] i = 7
+>2017-12-22 22:55:21,086 DEBUG [RunnableApplication.java:33] x = 256
+>2017-12-22 22:55:21,090 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-22 22:55:21,091 TRACE [RunnableApplication.java:32] i = 8
+>2017-12-22 22:55:21,093 DEBUG [RunnableApplication.java:33] x = 512
+>2017-12-22 22:55:21,094 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-22 22:55:21,095 TRACE [RunnableApplication.java:32] i = 9
+>2017-12-22 22:55:21,096 DEBUG [RunnableApplication.java:33] x = 1024
+>2017-12-22 22:55:21,096 ERROR [RunnableApplication.java:37] x is too big
+>2017-12-22 22:55:21,104 INFO [RunnableApplication.java:40] Final value x is: 1024
