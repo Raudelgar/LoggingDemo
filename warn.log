@@ -1,0 +1,18 @@
+>2017-12-27 10:46:48,899 WARN [RunnableApplication.java:22] This is a warn logger
+>2017-12-27 10:46:48,908 ERROR [RunnableApplication.java:23] This is a error logger
+>2017-12-27 10:46:48,910 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-27 10:46:48,911 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-27 10:46:48,911 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-27 10:46:48,912 ERROR [RunnableApplication.java:37] x is too big
+>2017-12-27 10:49:09,885 WARN [RunnableApplication.java:22] This is a warn logger
+>2017-12-27 10:49:09,894 ERROR [RunnableApplication.java:23] This is a error logger
+>2017-12-27 10:49:09,895 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-27 10:49:09,931 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-27 10:49:09,932 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-27 10:49:09,933 ERROR [RunnableApplication.java:37] x is too big
+>2017-12-27 10:50:18,620 WARN [RunnableApplication.java:22] This is a warn logger
+>2017-12-27 10:50:18,655 ERROR [RunnableApplication.java:23] This is a error logger
+>2017-12-27 10:50:18,657 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-27 10:50:18,667 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-27 10:50:18,668 WARN [RunnableApplication.java:35] x is getting too big
+>2017-12-27 10:50:18,671 ERROR [RunnableApplication.java:37] x is too big

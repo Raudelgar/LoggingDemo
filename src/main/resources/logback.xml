@@ -1,5 +1,5 @@
 <configuration>
-
+    <!--Console output -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <!-- encoders are assigned the type
              ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
@@ -7,9 +7,23 @@
             <pattern>%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
-
+    <!--Saved in an file. Set at the same level as console output -->
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
         <file>logger.log</file>
+        <encoder>
+            <pattern>>%date %level [%file:%line] %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- Chunk output only at info level-->
+    <appender name="INFO" class="ch.qos.logback.core.FileAppender">
+        <file>info.log</file>
+        <encoder>
+            <pattern>>%date %level [%file:%line] %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- Chunk output only at warn level-->
+    <appender name="WARN" class="ch.qos.logback.core.FileAppender">
+        <file>warn.log</file>
         <encoder>
             <pattern>>%date %level [%file:%line] %msg%n</pattern>
         </encoder>
@@ -18,6 +32,14 @@
     <root level="trace">
         <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
+    </root>
+
+    <root level="info">
+        <appender-ref ref="INFO" />
+    </root>
+
+    <root level="warn">
+        <appender-ref ref="WARN" />
     </root>
 </configuration>
 
